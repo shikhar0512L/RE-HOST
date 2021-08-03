@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+};
+
+.card {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+};
+
+.break {
+    padding: 12px;
+};
+
+#top {
+    border: 2px solid red !important;
+};
+
+#logo {
+    border:2px solid red;
+border-radius: 100px;
+    margin: 12px;
+};
+#footer {
+    /* color: white; */
+    background-color: black;
+    text-align: center;
+};
+
+#registrationForm {
+    background-color: rgb(41, 238, 23);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+};
+
+#navbarSupportedContent {
+    position: sticky;
+};
+
+.link {
+    text-decoration: none;
+};
